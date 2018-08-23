@@ -1,8 +1,7 @@
 # Rspec::TimeStop
+Stop current time in example.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rspec/time_stop`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a shorthand of `ActiveSupport::Testing::TimeHelpers`
 
 ## Installation
 
@@ -22,7 +21,40 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `:time_stop` to `it`, `describe` or `context`
+
+## Example
+```ruby
+RSpec.describe Rspec::TimeStop do
+  context "with :time_stop", :time_stop do
+    it "current time is freezed" do
+      before_time = Time.now
+      sleep 1
+      after_time = Time.now
+
+      expect(after_time).to eq before_time
+    end
+  end
+
+  context "without :time_stop" do
+    it "current time is not freezed" do
+      before_time = Time.now
+      sleep 1
+      after_time = Time.now
+
+      expect(after_time).to be > before_time
+    end
+
+    it "current time is freezed when :time_stop is granted", :time_stop do
+      before_time = Time.now
+      sleep 1
+      after_time = Time.now
+
+      expect(after_time).to eq before_time
+    end
+  end
+end
+```
 
 ## Development
 
@@ -32,7 +64,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rspec-time_stop.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sue445/rspec-time_stop.
 
 ## License
 
