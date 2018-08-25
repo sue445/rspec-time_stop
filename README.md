@@ -3,6 +3,8 @@ Stop current time in example.
 
 This is a shorthand of `ActiveSupport::Testing::TimeHelpers`
 
+[![Build Status](https://travis-ci.org/sue445/rspec-time_stop.svg?branch=master)](https://travis-ci.org/sue445/rspec-time_stop)
+
 ## Installation
 
 Add this line to your application's Gemfile:
