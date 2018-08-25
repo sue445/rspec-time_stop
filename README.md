@@ -3,6 +3,7 @@ Stop current time in example.
 
 This is a shorthand of `ActiveSupport::Testing::TimeHelpers`
 
+[![Gem Version](https://badge.fury.io/rb/rspec-time_stop.svg)](https://badge.fury.io/rb/rspec-time_stop)
 [![Build Status](https://travis-ci.org/sue445/rspec-time_stop.svg?branch=master)](https://travis-ci.org/sue445/rspec-time_stop)
 [![Coverage Status](https://coveralls.io/repos/github/sue445/rspec-time_stop/badge.svg)](https://coveralls.io/github/sue445/rspec-time_stop)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9f437c78e286285f5605/maintainability)](https://codeclimate.com/github/sue445/rspec-time_stop/maintainability)
