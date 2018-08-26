@@ -1,4 +1,4 @@
-# Rspec::TimeStop
+# RSpec::TimeStop
 Stop current time in example.
 
 This is a shorthand of `ActiveSupport::Testing::TimeHelpers`
@@ -30,7 +30,7 @@ Add `:time_stop` to `it`, `describe` or `context`
 
 ## Example
 ```ruby
-RSpec.describe Rspec::TimeStop do
+RSpec.describe RSpec::TimeStop do
   context "with :time_stop", :time_stop do
     it "current time is freezed" do
       before_time = Time.now

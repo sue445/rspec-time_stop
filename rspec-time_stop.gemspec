@@ -5,7 +5,7 @@ require "rspec/time_stop/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rspec-time_stop"
-  spec.version       = Rspec::TimeStop::VERSION
+  spec.version       = RSpec::TimeStop::VERSION
   spec.authors       = ["sue445"]
   spec.email         = ["sue445@sue445.net"]
 
