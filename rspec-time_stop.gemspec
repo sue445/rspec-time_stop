@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", ">= 1.16"
   spec.add_development_dependency "coveralls"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake"
   spec.add_development_dependency "simplecov"
 end
