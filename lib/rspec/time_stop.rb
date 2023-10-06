@@ -1,5 +1,6 @@
 require "rspec/time_stop/version"
 require "rspec"
+require "active_support"
 
 begin
   # workaround for activesupport 7.0.0
