@@ -11,6 +11,10 @@ if ENV["CI"]
 end
 
 require "bundler/setup"
+
+# FIXME: NameError: uninitialized constant ActiveSupport::LoggerThreadSafeLevel::Logger when activesupport < 7.1
+require "logger"
+
 require "rspec/time_stop"
 
 RSpec.configure do |config|
