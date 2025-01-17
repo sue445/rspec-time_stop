@@ -4,7 +4,7 @@ Stop current time in example.
 This is a shorthand of `ActiveSupport::Testing::TimeHelpers`
 
 [![Gem Version](https://badge.fury.io/rb/rspec-time_stop.svg)](https://badge.fury.io/rb/rspec-time_stop)
-[![Build Status](https://github.com/sue445/rspec-time_stop/workflows/test/badge.svg?branch=master)](https://github.com/sue445/rspec-time_stop/actions?query=workflow%3Atest)
+[![test](https://github.com/sue445/rspec-time_stop/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/rspec-time_stop/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/sue445/rspec-time_stop/badge.svg)](https://coveralls.io/github/sue445/rspec-time_stop)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9f437c78e286285f5605/maintainability)](https://codeclimate.com/github/sue445/rspec-time_stop/maintainability)
 
