@@ -6,7 +6,7 @@ This is a shorthand of `ActiveSupport::Testing::TimeHelpers`
 [![Gem Version](https://badge.fury.io/rb/rspec-time_stop.svg)](https://badge.fury.io/rb/rspec-time_stop)
 [![test](https://github.com/sue445/rspec-time_stop/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/rspec-time_stop/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/sue445/rspec-time_stop/badge.svg)](https://coveralls.io/github/sue445/rspec-time_stop)
-[![Maintainability](https://api.codeclimate.com/v1/badges/9f437c78e286285f5605/maintainability)](https://codeclimate.com/github/sue445/rspec-time_stop/maintainability)
+[![Maintainability](https://qlty.sh/gh/sue445/projects/rspec-time_stop/maintainability.svg)](https://qlty.sh/gh/sue445/projects/rspec-time_stop)
 
 ## Installation
 
